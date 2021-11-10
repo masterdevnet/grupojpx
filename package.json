@@ -1,0 +1,9 @@
+{
+  "name": "grupojpx",
+  "version": "1.0.0",
+  "description": "Site do GrupoJPX",
+  "main": "index.js",
+  "repository": "https://github.com/masterdevnet/grupojpx.git",
+  "author": "Manoel Estevam",
+  "license": "MIT"
+}
