@@ -1,4 +1,5 @@
 INICIAR O PROJETO APÓS O DOWNLOAD
+
 Instalar todas as dependências indicadas pelo package.json
 ### npm install
 ou
