@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Menu from '../component/Menu'
+import Head from "next/head"
+import Menu from "../component/Menu"
 
-function Home() {
+function Contatos() {
     return (
         <div>
             <Head>
@@ -10,13 +10,12 @@ function Home() {
                 <meta name="robots" content="index, follow" />
                 <meta name="description" content="Site do cgrupo JPX" />
                 <meta name="author" content="Manoel Estevam MasterDev" />
-                <title>GRUPO JPX - BEM VINDO</title>
+                <title>CONTATOS</title>
             </Head>
             <Menu />
-            <h1>GRUPO JPX</h1>
-            <h3>Bem vindo ao novo site do grupo JPX</h3>
+            <h1>CONTATOS</h1>
         </div>
     )
 }
 
-export default Home
+export default Contatos
