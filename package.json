@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next builda",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
