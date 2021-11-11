@@ -31,7 +31,7 @@ const Menu = () => {
                         </li>
                     </ul>
                     <div className="menu-link">
-                        menu
+                        <i class="fas fa-bars"></i>
                     </div>
                 </div>
             </nav>

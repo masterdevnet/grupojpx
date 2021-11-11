@@ -49,6 +49,9 @@ body {
         display: block;
         z-index: 999;
     }
+    .menu-link i.active::before{
+        content: "\f00d";
+    }
     .navbar .menu {
         background-color: #cb1a24;
         position: fixed;

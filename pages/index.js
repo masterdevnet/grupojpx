@@ -11,6 +11,7 @@ function Home() {
                 <meta name="description" content="Site do cgrupo JPX" />
                 <meta name="author" content="Manoel Estevam MasterDev" />
                 <title>GRUPO JPX - BEM VINDO</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
             </Head>
             <Menu />
 
