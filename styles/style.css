@@ -84,3 +84,16 @@ body {
         max-width: 930px;
     }
 }
+
+section {
+    padding: 50px 0;
+}
+@media(max-width: 600px) {
+    section {
+        padding: 20px 0;
+    }
+}
+.top {
+    color: #cb1a24;
+    display: flex;
+}

@@ -15,7 +15,18 @@ function Home() {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
             </Head>
             <Menu />
-            {/* <Navbar /> */}
+
+            <section className="top">
+                <div className="max-width">
+                    <div className="top-content">
+                        <div className="text-1">Temos a solução</div>
+                        <div className="text-2">que você precisa.</div>
+                        <div className="text-3">Podemos te ajudar?</div>
+                        <a href="/contatos">Entrar em contato</a>
+                    </div>
+                </div>
+            </section>
+            
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="custom.js"></script>
