@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', 'SF Pro Icons', 'Helvetica Meue', 'Helvetica', 'Arial', sans-serif;
+}
+.max-width {
+    max-width: 1280px;
+    padding: 0 10px;
+    margin: auto;
+}
+.navbar .logo a {
+    color: #cb1a24;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    border-bottom: solid 1px #cb1a24;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-flex;
+}
+.navbar .menu li a {
+    display: block;
+    color: #cb1a24;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.menu-link {
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 947px) {
+    .menu-link{
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu {
+        background-color: #cb1a24;
+        position: fixed;
+        height: 100%vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transform: all 0.3s ease;
+    }
+    .navbar li a {
+        color: aliceblue;
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 13px 0;
+        color: aliceblue;
+
+    }
+    .max-width {
+        max-width: 930px;
+    }
+}

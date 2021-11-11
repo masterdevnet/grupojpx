@@ -13,8 +13,10 @@ function Home() {
                 <title>GRUPO JPX - BEM VINDO</title>
             </Head>
             <Menu />
-            <h1>GRUPO JPX</h1>
-            <h3>Bem vindo ao novo site do grupo JPX</h3>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="custom.js"></script>
+            
         </div>
     )
 }
