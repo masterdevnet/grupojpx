@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logo from '../public/logo.png'
 
 const linkStyle = {
-    marginRight: 15
+    marginRight: 10
 }
 
 const Menu = () => {
