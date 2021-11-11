@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Ubuntu:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
     text-decoration: none;
 }
 body {
-    font-family: 'Roboto', 'SF Pro Icons', 'Helvetica Meue', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Ubuntu', 'Roboto', 'SF Pro Icons', 'Helvetica Meue', 'Helvetica', 'Arial', sans-serif;
 }
 .max-width {
     max-width: 1280px;
@@ -19,7 +21,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 20px 0;
+    padding: 15px 0;
     border-bottom: solid 1px #cb1a24;
 }
 .navbar .max-width {
